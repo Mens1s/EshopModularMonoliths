@@ -155,3 +155,7 @@ A single cohesive application internally divided into well-defined, loosely coup
 - Coordinated database schema ensures transactional integrity.
 - Simplified scalability.
 - Allows targeted scaling and optimization of specific modules.
+
+
+### Internal Architecture 
+- For less compelixt chooes N-Layer Arch., for more complex project choose Clean Arch.
