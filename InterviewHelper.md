@@ -159,3 +159,22 @@ A single cohesive application internally divided into well-defined, loosely coup
 
 ### Internal Architecture 
 - For less compelixt chooes N-Layer Arch., for more complex project choose Clean Arch.
+
+
+### DI : Dependency Injection
+- DI allows an object to receive its dependencies from an external source rather than creating itself.
+- Promotes loose coupling and enhances testability and maintainability.
+- DI container is configured in the Program.cs file.
+- Kısacası bir class başka bir classı sıfırdan yaratması gereken durumlarda varolan yaratılmış class'a referans verme işlemidir.
+- add transient service 
+- builder.Services.AddTransient<ICustomerService, CustomerService>();
+- it creates a new instance of the service for each request
+
+- add scoped service
+- builder.Services.AddScoped<ICustomerService, CustomerService>();
+- it creates a new instance of the service for each scope
+
+- add singleton service
+- builder.Services.AddSingleton<ICustomerService, CustomerService>();
+- it creates a single instance of the service for the lifetime of the application
+
