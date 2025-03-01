@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering", "Modules\Orderin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared\Shared.csproj", "{4DB6766F-6BC7-4D60-8B94-65A5D310B4C5}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6FDF9AFB-8992-41F3-AE7A-08697E9AF530}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{4DB6766F-6BC7-4D60-8B94-65A5D310B4C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DB6766F-6BC7-4D60-8B94-65A5D310B4C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DB6766F-6BC7-4D60-8B94-65A5D310B4C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FDF9AFB-8992-41F3-AE7A-08697E9AF530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FDF9AFB-8992-41F3-AE7A-08697E9AF530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FDF9AFB-8992-41F3-AE7A-08697E9AF530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDF9AFB-8992-41F3-AE7A-08697E9AF530}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
